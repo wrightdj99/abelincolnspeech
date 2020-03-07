@@ -1,0 +1,31 @@
+/**
+*CSS Typography Styles
+*v. 1.0.0
+*/
+
+/*Layout Styles*/
+.container {
+    margin: 0 auto;
+    padding: 48px 24px;
+    max-width: 720px;
+    background-color: #faffc2;
+}
+
+
+/*Type Styles*/
+html {
+    font-family: 'Allura', 'Alex Brush', 'antic-didone', cursive, inherit;
+    /*Font stack is up above, the fonts are listed in order from ideal to "if all else fails, use this"*/
+}
+
+.aclass {
+    font-family: 'allura', cursive;
+    color: brown;
+    font-size: large;
+}
+
+.bclass {
+    font-family: 'alex brush', cursive;
+    color:darkgreen;
+    font-size: 15px;
+}
